@@ -1,3 +1,5 @@
 export default {
-  home: '/',
+  index: '/',
+  login: '/login',
+  settings: '/settings'
 }
