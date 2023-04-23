@@ -14,12 +14,6 @@ export default {
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
 
-  // Global CSS: https://go.nuxtjs.dev/config-css
-  css: ['~/assets/scss/main.scss'],
-  styleResources: {
-    scss: ['~/assets/scss/theme/colors/index.scss'],
-  },
-
   env: {
     APP_API_URL: process.env.APP_API_URL,
     APP_API_HEADERS_API_KEY: process.env.APP_API_HEADERS_API_KEY,
@@ -48,6 +42,8 @@ export default {
     '@nuxtjs/eslint-module',
     // https://go.nuxtjs.dev/stylelint
     '@nuxtjs/stylelint-module',
+
+    '@nuxtjs/svg',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules

@@ -20,9 +20,12 @@
     "cookie-universal-nuxt": "^2.2.2",
     "core-js": "^3.25.3",
     "nuxt": "^2.15.8",
+    "v-tooltip": "^2",
     "vue": "^2.7.10",
+    "vue-multiselect": "^1.1.5",
     "vue-server-renderer": "^2.7.10",
-    "vue-template-compiler": "^2.7.10"
+    "vue-template-compiler": "^2.7.10",
+    "vuelidate": "^0.7.7"
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.19.1",
@@ -30,6 +33,7 @@
     "@nuxtjs/eslint-module": "^3.1.0",
     "@nuxtjs/style-resources": "^1.2.1",
     "@nuxtjs/stylelint-module": "^4.1.0",
+    "@nuxtjs/svg": "^0.4.0",
     "eslint": "^8.24.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-nuxt": "^4.0.0",
