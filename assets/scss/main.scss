@@ -1,8 +1,17 @@
-// themes
+// theme fonts
+@import './themes/fonts/index.scss';
+
+// theme colors
 @import './themes/colors/index.scss';
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+// normalize
+@import './normalize.scss';
+
+// typography
+@import './typography.scss';
+
+// components
+@import './components/index.scss';
+
+// pages
+@import './pages/index.scss';
