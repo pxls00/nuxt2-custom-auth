@@ -1,4 +1,4 @@
-# test-av100
+# nuxt2 custom auth scheme
 
 ## Build Setup
 
